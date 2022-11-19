@@ -101,3 +101,11 @@ select {
 	padding: 0 $container-offset;
 	max-width: $container-width;
 }
+
+.container-fluid {
+	max-width: 1520px;
+}
+
+.offset {
+	padding-left: 40px;
+}

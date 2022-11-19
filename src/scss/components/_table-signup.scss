@@ -1,0 +1,88 @@
+.table-signup {
+	display: table;
+	border-collapse: collapse;
+	width: 100%;
+
+	thead {
+		tr {
+			background-color: $yellow-color;
+		}
+	}
+
+	tbody {
+		tr {
+			background-color: $yellow-light-color;
+
+			&:last-child {
+				td {
+					padding-top: 28px;
+				}
+			}
+		}
+	}
+
+	td,
+	th {
+		border: 1px solid $yellow-dark-color;
+		padding: 10px 12px;
+		font-weight: 700;
+
+		&:not(:first-child) {
+			text-align: center;
+		}
+	}
+
+	th {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	td {
+		width: 17%;
+
+		span {
+			display: block;
+			font-size: 12px;
+			line-height: 18px;
+		}
+
+		&:first-child {
+			width: 49%;
+		}
+	}
+
+	img {
+		margin: 0 auto;
+		width: 20px;
+		height: 20px;
+	}
+
+	&__price {
+		th {
+			font-size: 16px;
+
+			&:not(:first-child) {
+				font-size: 22px;
+			}
+		}
+	}
+
+	&__currencies {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px 0;
+		gap: 6px;
+	}
+
+	&__currency {
+		border: 1px solid $black-color;
+		padding: 5px;
+
+		img {
+			width: 15px;
+			height: 15px;
+			object-fit: contain;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.btn {
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: background-color 0.3s;
+
+	&--black {
+		color: $white-color;
+		background-color: $black-color;
+
+		&:hover {
+			/* stylelint-disable-next-line scss/no-global-function-names */
+			background-color: lighten($color: $black-color, $amount: 20%);
+		}
+	}
+}
