@@ -2,15 +2,26 @@
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
+	color: $white-color;
 	transition: background-color 0.3s;
 
 	&--black {
-		color: $white-color;
 		background-color: $black-color;
 
 		&:hover {
 			/* stylelint-disable-next-line scss/no-global-function-names */
 			background-color: lighten($color: $black-color, $amount: 20%);
+		}
+	}
+
+	&--pink {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		background-color: $pink-color;
+
+		&:hover {
+			/* stylelint-disable-next-line scss/no-global-function-names */
+			background-color: lighten($color: $pink-color, $amount: 10%);
 		}
 	}
 }
