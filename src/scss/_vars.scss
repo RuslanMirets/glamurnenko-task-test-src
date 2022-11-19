@@ -1,5 +1,6 @@
 // Базовы переменные
-$font-family: "Nunito";
+$font-family: "Roboto";
+$font-family-secondary: "Oranienbaum";
 $content-width: 1170px;
 $container-offset: 15px;
 $container-width: calc($container-offset * 2 + $content-width);
@@ -7,3 +8,7 @@ $container-width: calc($container-offset * 2 + $content-width);
 // Цвета
 $white-color: #fff;
 $black-color: #000;
+$text-color: #333;
+$gold-color: #aaa069;
+$pink-color: #fe0b3b;
+$gray-color: #737373;

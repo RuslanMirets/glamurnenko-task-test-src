@@ -1,0 +1,29 @@
+.hero {
+	min-height: 820px;
+	background-image: url("@img/bg-main.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&__container {
+		padding-top: 212px;
+	}
+
+	&__image {
+		margin-bottom: 44px;
+	}
+
+	&__title {
+		font-family: $font-family-secondary;
+		font-size: 20px;
+		line-height: 26px;
+		text-transform: uppercase;
+		color: $white-color;
+
+		span {
+			display: block;
+			text-decoration: underline;
+			color: $gold-color;
+		}
+	}
+}

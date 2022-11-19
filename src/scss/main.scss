@@ -5,4 +5,10 @@
 @import "./global";
 
 // Подключение компонентов страницы
+@import "./components/section-title";
+@import "./components/nav";
+@import "./components/social";
+@import "./components/phones";
 @import "./components/header";
+@import "./components/hero";
+@import "./components/reservation";

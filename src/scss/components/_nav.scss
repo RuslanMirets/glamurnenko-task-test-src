@@ -1,0 +1,23 @@
+.nav {
+	flex-grow: 1;
+
+	&__list {
+		display: flex;
+		gap: 20px;
+	}
+
+	&__link {
+		font-family: $font-family-secondary, sans-serif;
+		font-size: 18px;
+		line-height: 26px;
+		text-transform: uppercase;
+		color: $white-color;
+		transition: color 0.3s;
+
+		&:hover {
+			text-decoration: none;
+			/* stylelint-disable-next-line scss/no-global-function-names */
+			color: darken($color: $white-color, $amount: 20%);
+		}
+	}
+}

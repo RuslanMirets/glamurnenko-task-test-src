@@ -1,0 +1,13 @@
+.social {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	&__image {
+		width: 20px;
+
+		&--vk {
+			width: 25px;
+		}
+	}
+}

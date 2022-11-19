@@ -1,2 +1,14 @@
 .header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		min-height: 130px;
+		gap: 80px;
+	}
 }

@@ -1,0 +1,45 @@
+.reservation {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 50px;
+	padding-top: 60px;
+
+	&__new {
+		position: absolute;
+		left: -50px;
+		top: 64px;
+		padding: 6px;
+		width: 300px;
+		box-shadow: 0 15px 10px -15px $black-color;
+		font-size: 18px;
+		text-align: center;
+		color: $white-color;
+		background-color: $pink-color;
+		transform: rotate(-40deg);
+	}
+
+	&__descr {
+		margin: 0 auto 20px;
+		max-width: 900px;
+
+		p {
+			font-size: 18px;
+			line-height: 30px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+
+	&__bg-image {
+		margin-bottom: 4px;
+		border-bottom: 1px dashed $gold-color;
+		width: 100%;
+		max-height: 640px;
+		object-position: top;
+	}
+
+	&__bg-descr {
+		text-align: center;
+		color: $gray-color;
+	}
+}

@@ -1,0 +1,17 @@
+.phones {
+	display: flex;
+	flex-direction: column;
+
+	&__link {
+		font-family: $font-family-secondary, sans-serif;
+		text-align: right;
+		color: $white-color;
+		transition: color 0.3s;
+
+		&:hover {
+			text-decoration: none;
+			/* stylelint-disable-next-line scss/no-global-function-names */
+			color: darken($color: $white-color, $amount: 20%);
+		}
+	}
+}
