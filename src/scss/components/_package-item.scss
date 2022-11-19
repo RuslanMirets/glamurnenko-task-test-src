@@ -73,10 +73,29 @@
 		align-self: center;
 		width: 100%;
 		max-width: 360px;
+
+		span {
+			position: relative;
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		left: -24px;
+		top: 0;
+		width: 14px;
+		height: 14px;
+		fill: $white-color;
+		opacity: 0;
+		transition: opacity 0.3s;
 	}
 
 	&:hover {
 		border-color: $gray-color;
 		box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+		.package-item__icon {
+			opacity: 1;
+		}
 	}
 }
