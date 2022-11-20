@@ -4,6 +4,7 @@
 	top: 0;
 	z-index: 2;
 	width: 100%;
+	transition: all 0.4s;
 
 	&__container {
 		display: flex;
@@ -11,6 +12,11 @@
 		justify-content: space-between;
 		min-height: 130px;
 		gap: 80px;
+
+		@media (max-width: 991px) {
+			min-height: 60px;
+			gap: 15px;
+		}
 	}
 
 	&.fixed {
@@ -20,6 +26,20 @@
 
 		.header__container {
 			min-height: 60px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		&__social {
+			order: 1;
+		}
+
+		&__phones {
+			order: 0;
+		}
+
+		&__burger {
+			order: 2;
 		}
 	}
 }

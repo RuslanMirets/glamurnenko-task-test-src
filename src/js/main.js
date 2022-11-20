@@ -5,3 +5,4 @@ functions.isWebp();
 
 import "./modules/scroll-to-top.js";
 import "./modules/scroll.js";
+import "./modules/burger.js";

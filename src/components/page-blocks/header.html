@@ -1,6 +1,6 @@
 <header class="header">
 	<div class="header__container container-fluid">
-		<nav class="header__nav nav" title="Меню">
+		<nav class="header__nav nav" title="Меню" data-menu>
 			<ul class="nav__list">
 				<li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
 				<li class="nav__item"><a class="nav__link" href="#">Бесплатно</a></li>
@@ -71,5 +71,13 @@
 			<a class="phones__link" href="tel:88007070513">8(800)707-05-13</a>
 			<a class="phones__link" href="tel:+74993502335">+7(499)350-23-35</a>
 		</ul>
+		<button
+			class="header__burger burger"
+			aria-label="Открыть меню"
+			aria-expanded="false"
+			data-burger
+		>
+			<span class="burger__line"></span>
+		</button>
 	</div>
 </header>

@@ -7,10 +7,26 @@
 
 	&__container {
 		padding-top: 212px;
+
+		@media (max-width: 991px) {
+			padding-top: 140px;
+		}
+
+		@media (max-width: 575px) {
+			padding-top: 120px;
+		}
 	}
 
 	&__image {
 		margin-bottom: 44px;
+
+		@media (max-width: 991px) {
+			width: 180px;
+		}
+
+		@media (max-width: 575px) {
+			width: 120px;
+		}
 	}
 
 	&__title {
@@ -25,5 +41,17 @@
 			text-decoration: underline;
 			color: $gold-color;
 		}
+
+		@media (max-width: 767px) {
+			max-width: 180px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		min-height: 600px;
+	}
+
+	@media (max-width: 575px) {
+		min-height: 510px;
 	}
 }

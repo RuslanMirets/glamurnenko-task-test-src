@@ -4,4 +4,9 @@
 	font-size: 38px;
 	text-align: center;
 	text-transform: uppercase;
+
+	@media (max-width: 991px) {
+		margin-bottom: 30px;
+		font-size: 32px;
+	}
 }

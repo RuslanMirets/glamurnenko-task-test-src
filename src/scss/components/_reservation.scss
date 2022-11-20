@@ -16,6 +16,27 @@
 		color: $white-color;
 		background-color: $pink-color;
 		transform: rotate(-40deg);
+
+		@media (max-width: 991px) {
+			left: -61px;
+			top: 26px;
+			padding: 6px;
+			width: 238px;
+		}
+
+		@media (max-width: 575px) {
+			left: -83px;
+			top: 12px;
+		}
+	}
+
+	&__title {
+		@media (max-width: 575px) {
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 300px;
+			text-align: center;
+		}
 	}
 
 	&__descr {
@@ -27,6 +48,11 @@
 			line-height: 30px;
 			text-align: center;
 			text-transform: uppercase;
+
+			@media (max-width: 991px) {
+				font-size: 16px;
+				line-height: 26px;
+			}
 		}
 	}
 
@@ -36,6 +62,10 @@
 		width: 100%;
 		max-height: 740px;
 		object-position: top;
+
+		@media (max-width: 991px) {
+			max-height: 460px;
+		}
 	}
 
 	&__bg-descr {
